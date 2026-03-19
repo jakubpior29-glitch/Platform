@@ -60,17 +60,6 @@ Orchid's [blog](https://blog.orchid.software/) informs about news and announceme
 Continually striving to actively include feedback from the community in the development of Orchid greatly benefits its progress.
 Support from the community is invaluable when providing well-structured and detailed feedback.
 
-### GitHub
-
-Create [issues](https://github.com/orchidsoftware/platform/issues) to report problems or participate in [discussions](https://github.com/orchidsoftware/platform/discussions) to ask questions, share ideas, and give opinions.
-
-### Telegram User Groups
-
-Join the [Global Community](https://t.me/orchid_community), [Russian Community](https://t.me/orchid_russian_community), or [Spanish Community](https://t.me/esLaravelOrchid) on Telegram.
-
-### Discord
-
-Join the [Discord](https://discord.gg/NxXhSHa5tq) server to chat with other Orchid users and the development team.
 
 ## Support Orchid
 
