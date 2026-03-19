@@ -16,6 +16,8 @@ class Toast extends Alert
      */
     public const SESSION_MESSAGE = 'toast_notification.message';
 
+    public const SESSION_image = 'toast_notification.image';
+
     /**
      * @var string The session key for level.
      */
@@ -80,7 +82,7 @@ class Toast extends Alert
      */
     public function persistent(bool $persistent = true): static
     {
-        return $this->autoHide(! $persistent);
+        return $this->autoHide(!$persistent);
     }
 
     /**
