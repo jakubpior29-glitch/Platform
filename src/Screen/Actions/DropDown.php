@@ -31,10 +31,11 @@ class DropDown extends Action
      * @var array
      */
     protected $attributes = [
-        'class'  => 'btn btn-link icon-link gap-2',
+        'class' => 'btn btn-link icon-link gap-2',
         'source' => null,
-        'icon'   => null,
-        'list'   => [],
+        'icon' => null,
+        'list' => [],
+        'image' => ""
     ];
 
     /**
@@ -51,6 +52,13 @@ class DropDown extends Action
      * @return Factory|View|mixed
      */
     public function build(?Repository $repository = null)
+    {
+        $this->set('source', $repository);
+
+        return $this->render();
+    }
+
+    public function getImage(?Repository $repository = null)
     {
         $this->set('source', $repository);
 
